@@ -41,12 +41,16 @@ function App() {
     });
   }
 
-  function handleEnterforWelcome(){
-    return window.alert(`Press the "Jump To List" button below`)
+  function handleEnterforWelcome(e){
+    if(e.key==="Enter"){
+        return window.alert(`Press the "Jump To List" button below`)
+    }
   }
 
-  function handleEnterforHome(){
-    return window.alert(`Press the "Add" button on the side`)
+  function handleEnterforHome(e){
+    if(e.key==="Enter"){
+        return window.alert(`Press the "Add" button on the side`)
+    }
   }
 
 
@@ -62,7 +66,7 @@ function App() {
                 <WelcomePage
                   handleChange={handleName}
                   name={name}
-                  enterWElcome={handleEnterforWelcome}
+                  enterWelcome={handleEnterforWelcome}
                   // jumpToList={<Link to="/Home"></Link>}
                 />
                 <button>

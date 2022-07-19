@@ -43,13 +43,13 @@
 
 
 
-##### One of the most important thing in here after adding the homepage. You need the change your paths in your code #####
+        ##### One of the most important thing in here after adding the homepage. You need the change your paths in your code #####
 
-## For example if you are using the '/' as a home page when you run the project (npm start) app open in http://localhost:3000/
-## For example if you are using the '/test' as a home page when you run the project (npm start) app open in http://localhost:3000/test
+        ## For example if you are using the '/' as a home page when you run the project (npm start) app open in http://localhost:3000/
+        ## For example if you are using the '/test' as a home page when you run the project (npm start) app open in http://localhost:3000/test
 
-## Therefore after adding the homepage in the package.json file we need to update other path in the code
-## For example we add the "homepage": "https://[YourGitHubAccountName].github.io/[YourProjectName]" so our '/' paths become '/[YourProjectName]'                           or '/test' become '/[YourProjectName]/test'
+        ## Therefore after adding the homepage in the package.json file we need to update other path in the code
+        ## For example we add the "homepage": "https://[YourGitHubAccountName].github.io/[YourProjectName]" so our '/' paths become '/[YourProjectName]'                           or '/test' become '/[YourProjectName]/test'
 
 
 
